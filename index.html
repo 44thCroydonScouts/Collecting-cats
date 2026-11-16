@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scout Basket Collector</title>
+    <title>Scout collecting cats</title>
     <style>
         body { text-align: center; background-color: #1e272e; color: #ffffff; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; touch-action: manipulation; margin: 0; padding: 10px; }
         canvas { background-color: #485460; border: 4px solid #d2dae2; border-radius: 8px; max-width: 100%; height: auto; margin-top: 10px; }
@@ -14,7 +14,7 @@
     </style>
 </head>
 <body>
-    <h1>Basket Collector!</h1>
+    <h1> Collecting cats!</h1>
     <div class="stats">Time Left: <span id="timer">60</span>s | Score: <span id="score">0</span></div>
     <canvas id="gameCanvas" width="600" height="400"></canvas>
     
@@ -27,12 +27,12 @@
         // =====================================================================
         // 🛠️ SCOUT HACKER ZONE: WHAT CAN YOU CHANGE?
         // =====================================================================
-        let fallSpeed = 4;          // 🌧️ FALL SPEED: Make items fall faster (e.g., 7) or slower (e.g., 2)
-        let basketSpeed = 9;        // 🏃 BASket SPEED: How fast the player moves left/right
-        let gameDuration = 60;      // ⏱️ TIME: Total seconds for the round
+        let fallSpeed = 10;          // 🌧️ FALL SPEED: Make items fall faster (e.g., 7) or slower (e.g., 2)
+        let basketSpeed = 8;        // 🏃 BASket SPEED: How fast the player moves left/right
+        let gameDuration = 100;      // ⏱️ TIME: Total seconds for the round
         
         // 🎨 THEME SETTINGS
-        let backgroundImageUrl = ""; 
+        let backgroundImageUrl = "https://img.freepik.com/premium-photo/cute-cat-anime-style-ai-generated_690082-709.jpg" 
         let itemImageUrl = "";       // e.g. Falling apple or badge icon
         let basketImageUrl = "";     // e.g. Player basket or rover icon
         // =====================================================================
